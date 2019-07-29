@@ -1,5 +1,31 @@
-img {
-    width: 10%;
-    height: auto;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 180, 102);
+    margin: 0px;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: rgb(228, 228, 228);
+    color: black;
 }
